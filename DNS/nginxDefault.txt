@@ -13,7 +13,6 @@ server {
         }
 
         location /web0007 {
-                root /var/www/html;
                 index unique.html;
         }
 
