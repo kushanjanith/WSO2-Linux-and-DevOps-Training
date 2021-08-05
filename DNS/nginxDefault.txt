@@ -27,6 +27,7 @@ server {
 server {
 
         listen 8081;
+        listen 80;
 
         return 301 https://lt-2021-007.ml$request_uri;
 }
