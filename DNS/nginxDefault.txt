@@ -12,8 +12,7 @@ server {
                 proxy_pass http://127.0.0.1:8000;
         }
 
-        location /unique {
-                root /var/www/html;
+        location /web0007 {
                 index unique.html;
         }
 
@@ -27,6 +26,7 @@ server {
 server {
 
         listen 8081;
+        listen 80;
 
         return 301 https://lt-2021-007.ml$request_uri;
 }
